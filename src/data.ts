@@ -1,11 +1,5 @@
-// Сначала определяем интерфейс, чтобы TypeScript знал, как выглядит наш объект товара.
-export interface Product {
-  id: number;
-  name: string;
-  description: string;
-  price: number;
-  imageUrl: string;
-}
+
+import { type Product } from './types';
 
 // Теперь создаем сам массив с товарами
 export const rickAndMortyProducts: Product[] = [ 

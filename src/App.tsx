@@ -1,4 +1,3 @@
-
 import React from 'react';
 import { rickAndMortyProducts } from './data';
 import ProductCard from './components/ProductCard';
